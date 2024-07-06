@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h2>Student Information Form Validation Through JavaScript</h2>
+    <form>
+        <div class="container">
+            <label for="uname" ><b>User Id :</b></label>
+            <input type="number" placeholder="Enter User Id" name="uname" required>
+            <br><br>
+
+            <label for="psw"><b>password :</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <br><br>
+
+            <label for="Name"><b>Name:</b></label>
+            <input type="text" placeholder="" name="Name" required>
+            <br><br>
+            <label for="add"><b>Address:</b></label>
+            <input type="text" placeholder="" name="add" required>
+            <br><br>
+            <label for="Cname"><b>Country:</b></label>
+            <!-- <input type="text" placeholder="Select Country" name="Name" required> -->
+            <select name="Cname" id="Cname">
+                <option value="india">(Please Select a Country)</option>
+                <option value="india">india</option>
+                <option value="india">Nepal</option>
+                <option value="india">Pakistan</option>
+            </select>
+            <br>
+            <br>
+            <label for="zipC"><b>ZIP Code:</b></label>
+            <input type="number" placeholder="" name="Name" required>
+            <br><br>
+            <label for="Name"><b>Email:</b></label>
+            <input type="text" placeholder="" name="Name" required>
+            <br><br>
+            <label for="Name"><b>Sex:</b></label>
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+            <br><br>
+            <label for="LName"><b>Language:</b></label>
+            <input type="checkbox" name="Lname" value="English">English
+            <input type="checkbox" name="Lname" value="NEnglish">Not English
+            <!-- <input type="text" placeholder="" name="Name" required> -->
+            <br><br>
+            <label for="Name"><b>About:</b></label>
+            <input type="text" placeholder="" name="Name" required>
+            <br><br>
+            <button type="submit" >Submit</button>
+
+        </div>
+    </form>
+    </form>
+</body>
+</html>

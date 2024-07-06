@@ -1,0 +1,28 @@
+.container{
+    height: 700px;
+    background-color: yellow;
+    border: 1px solid black;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px ;
+    grid-template-rows: 100px 100px;
+    grid-gap: 10px;
+    /* justify-content: start;
+    justify-content: end;
+    justify-content: center;
+    justify-content: space-around;
+    */
+/* 
+    align-items: start;
+    align-items: end;
+    align-items: baseline;
+    align-items: stretch; */
+
+    
+
+
+}
+.box{
+    border: 1px solid red;
+    background-color: aqua;
+}

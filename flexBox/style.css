@@ -1,0 +1,16 @@
+.container{
+    height: 400px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;/* has fourn direction */
+    flex-wrap: wrap;/*1-nowrap,2-wrap-reverse,3-wrap   */
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+
+}
+.box{
+    border: 1px solid green;
+    background-color: aqua;
+    width: 50px;
+}
